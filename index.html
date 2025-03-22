@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Document</title>
+
+   
+
+
+</head>
+
+<body>
+   <form onsubmit="return remplis();">
+      <li>
+         <label for="obl">Nom :</label> 
+         <input id="obl" type="text" >
+        <span id="errorname"></span>
+    </li>
+
+        <li>
+            <label for="lastname">Prenom :</label> 
+            <input type="text" id="lastname">
+        
+        </li>
+        
+        <li><label for="Email">Email :</label>
+             <input type="text" id="Email"></li>
+
+        <li>
+            <label for="age">Age :</label>
+            <input id="age" type="text">
+            <span id="errage"></span>
+        </li>
+
+        <li>
+            <label for="pass">Mot de passe :</label> 
+            <input id="pass" type="password"  >
+            <span id="errpass"></span>
+        </li>
+        
+        <li><label for="conf">Confirmation du mot de pass :</label> 
+            <input id="conf" type="password">
+            <span id="errorconf"></span>
+        </li>
+        <li><button onclick="submit" id="button">s'inscrire</button>
+    </form>
+</body>
+</html>
